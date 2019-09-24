@@ -4,17 +4,19 @@ const path = require("path");
 
 // This will exports a function with the routes of 'home' and 'survey' html files:
 module.exports = function(app) {
-    
-// Route for the survey.html page:
+
+//route for the survey
 app.get("/survey", function(req, res) {
     res.sendFile(path.join(__dirname, "./public/survey.html"));
-  });
-// home page as default page if survey is not found
-app.get("*", function(req, res) {
+ });
+
+//route for homepage
+app.get("/home", function(req, res) {
     res.sendFile(path.join(__dirname, "./public/home.html"));
-  });
+ });
 };
 
+//my first mess up below :)
 // Your htmlRoutes.js file should include two routes:
 // const http = require('http');
 // const express = require('express');
