@@ -1,14 +1,9 @@
 # FriendFinder
+heroku
+https://express-friend-findtor.herokuapp.com/
 
-heroku git
-https://git.heroku.com/shrouded-thicket-32780.git
+git
 
-github https://github.com/iamtor9/FriendFinder/blob/master/app/public/home.html
-
-
-//ignore this
-original domain
-https://friend-find-tor.herokuapp.com/
 
 Friend Finder - Node and Express Servers
 
