@@ -1,0 +1,40 @@
+body {
+background-color: antiquewhite;
+background-size: cover;
+width: 95%;
+margin: auto;
+}
+.jumbotron {
+background: transparent;
+background-blend-mode: darken;
+margin-top: 10px;
+}
+
+.classyButt {
+    color: darkslategrey;
+    font: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: black;
+text-decoration-color: aquamarine;
+font-size: 100px;
+}
+
+h2 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: black;
+text-decoration-color:yellow;
+font-size: 80px;
+
+}
+
+h3 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: black;
+text-decoration-color:yellow;
+font-size: 50px;
+
+}

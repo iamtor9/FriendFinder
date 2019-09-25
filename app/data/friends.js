@@ -1,14 +1,77 @@
-//Your survey should have 10 questions of your choosing. 
-//Each answer should be on a scale of 1 to 5 based on 
-//how much the user agrees or disagrees with a question.
+// create friends datatable
+let friends = [
+
+    {
+        "photo": "",
+        "scores": [
+        "4",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "5",
+        "5",
+        "1",
+        "5"
+        ]
+        },
+    {
+        "name": "Howdewu Likemenow",
+        "photo": " ",
+        "scores": [
+        "4",
+        "4",
+        "2",
+        "3",
+        "2",
+        "2",
+        "3",
+        "2",
+        "4",
+        "5"
+        ]
+        },
+    {
+        "name": "Thizzgurl Issonfire",
+        "photo": " ",
+        "scores": [
+        "4",
+        "4",
+        "2",
+        "3",
+        "2",
+        "2",
+        "3",
+        "2",
+        "4",
+        "5"
+        ]
+        },
+    {
+        "name": "Honey Daniels",
+        "photo": " ",
+        "scores": [
+        "4",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+        ]
+        }];
+  
+  // This module will exports all the data in the friends array:
+  module.exports = friends;
 
 
 
 
-
-
-=======
-
+//EXAMPLE GUIDE BELOW
 //create table
 // {
 //     "name":"Ahmed",
@@ -27,11 +90,6 @@
 //         ]
 // }
 
-//create "POST" array for table object above
-//possibly use what is below to stringify the objects and their values from the table.
-//const myJSON = JSON.stringify(obj);
-
-window.JSON = [{object.array}];
 
 // Determine the user's most compatible friend using the following as a guide:
 
@@ -52,67 +110,3 @@ window.JSON = [{object.array}];
 
 // The modal should display both the name and picture of the closest match.
 
-{
-    "name": "Barry Good",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
-    "scores": [
-    "4",
-    "1",
-    "2",
-    "1",
-    "2",
-    "2",
-    "5",
-    "5",
-    "1",
-    "5"
-    ]
-    },
-{
-    "name": "Howdewu Likemenow",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
-    "scores": [
-    "4",
-    "4",
-    "2",
-    "3",
-    "2",
-    "2",
-    "3",
-    "2",
-    "4",
-    "5"
-    ]
-    },
-{
-    "name": "Thizzgurl Issonfire",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
-    "scores": [
-    "4",
-    "4",
-    "2",
-    "3",
-    "2",
-    "2",
-    "3",
-    "2",
-    "4",
-    "5"
-    ]
-    },
-{
-    "name": "Honey Daniels",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
-    "scores": [
-    "4",
-    "2",
-    "2",
-    "1",
-    "1",
-    "1",
-    "1",
-    "2",
-    "1",
-    "2"
-    ]
-    },
