@@ -1,7 +1,7 @@
 # FriendFinder
 
 heroku git
-https://git.heroku.com/friend-find-tor.git
+https://git.heroku.com/shrouded-thicket-32780.git
 
 domain
 https://friend-find-tor.herokuapp.com/
