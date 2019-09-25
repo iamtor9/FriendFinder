@@ -6,16 +6,18 @@ const path = require("path");
 
 //create express app function and port
 const app = express();
+const routes = require("./routing/friends.js");
+app.use(routes);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8889;
 
 // Parse application body
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //handlebars handle
-app.engine("handlebars", exphbs({ defaultLayout: "main" }));
-app.set("view engine", "handlebars");
+// app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+// app.set("view engine", "handlebars");
 
 require("./routing/apiRoutes")(app);
 require("./routing/htmlRoutes")(app);
