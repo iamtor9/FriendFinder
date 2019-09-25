@@ -7,12 +7,12 @@ module.exports = function(app) {
 
 //route for the survey
 app.get("/survey", function(req, res) {
-    res.sendFile(path.join(__dirname, "./public/survey.html"));
+    res.sendFile(path.join(__dirname, "../public/survey.html"));
  });
 
 //route for homepage
-app.get("/home", function(req, res) {
-    res.sendFile(path.join(__dirname, "./public/home.html"));
+app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/index.html"));
  });
 };
 
