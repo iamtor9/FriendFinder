@@ -2,6 +2,7 @@
 let friends = [
 
     {
+        "name": "Barry Good",
         "photo": "",
         "scores": [
         "4",
