@@ -1,5 +1,11 @@
 # FriendFinder
 
+heroku git
+https://git.heroku.com/friend-find-tor.git
+
+domain
+https://friend-find-tor.herokuapp.com/
+
 Friend Finder - Node and Express Servers
 
 
